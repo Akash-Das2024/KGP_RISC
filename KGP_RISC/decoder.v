@@ -59,5 +59,5 @@ endmodule
 // other module such as ALU (needs rs, rt and imm1, imm2, opcode)
 // MEMORY (needs output of ALU which needs this decoding)
 // and also BRANCHING needs imm2 and label as the address
-// 
+//
 ////////////////////////////////////////////////////////////////
