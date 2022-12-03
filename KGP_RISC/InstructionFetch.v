@@ -1,21 +1,21 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    00:21:47 11/05/2022 
-// Design Name: 
-// Module Name:    InstructionFetch 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
+// Company:
+// Engineer:
 //
-// Dependencies: 
+// Create Date:    00:21:47 11/05/2022
+// Design Name:
+// Module Name:    InstructionFetch
+// Project Name:
+// Target Devices:
+// Tool versions:
+// Description:
 //
-// Revision: 
+// Dependencies:
+//
+// Revision:
 // Revision 0.01 - File Created
-// Additional Comments: 
+// Additional Comments:
 //
 //////////////////////////////////////////////////////////////////////////////////
 module InstructionFetch(
@@ -40,3 +40,13 @@ InstructionMemory IM (
 );
 
 endmodule
+////////////////////////////////////////////////////////////////
+// *** Memory element for instruction fetch.
+// Instruction Fetch from Block Ram(single port ROM).the name of
+// BRAM is Instruction Memory where we will store the binary code
+// or instructions to be executed.
+// block ram specification are commented along side the instantia-
+// tion of IM, memory address of [9:0], enable and reset pin are
+// on and output is the instruction to be executed of 32 bits.
+//
+////////////////////////////////////////////////////////////////

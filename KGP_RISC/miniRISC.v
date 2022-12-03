@@ -46,16 +46,24 @@ output [31:0] out1, out2
 	wire carryFlag, zeroFlag, signFlag;
 
     wire clk_out;
+////////////////////////////////////////////////////////////////
+//
+//
+//
 // for FPGA DEMONSTRATION use of CLOCK DIVIDER
 //
-// ****** for demostration uncomment line 53 to 56 and comment line 58 *******
+// *** for demostration uncomment line 58 to 61
+// and comment line 66 ***
 //
-// Clock_divider divider (
+// Clock_divider divider ( // uncomment this instantiation
 //         .clock_in(clk),
 //         .clock_out(clk_out)
 //     );
-
-assign clk_out = clk;
+//
+//
+//
+////////////////////////////////////////////////////////////////
+assign clk_out = clk; // comment this for FPGA
 
 ProgramCounter PC (
     .clk(clk_out),
