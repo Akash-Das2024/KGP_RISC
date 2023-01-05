@@ -1,7 +1,8 @@
 # KGP_RISC
-RISC PROCESSOR DESIGN:
 
-**Design modules:
+## RISC PROCESSOR DESIGN:
+
+Design modules:
 
 1. miniRISC.v (top module)
 2. ProgramCounter.v (PC)
@@ -19,4 +20,3 @@ this is also a memory element which instantiate Memory Block Ram which is also a
 \
 \
 \
-INSTRUCTIONS:
