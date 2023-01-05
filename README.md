@@ -14,5 +14,4 @@
 8. MemoryFetch (MF) ---> fetch data from the memory or store data from the memory. <br />
 this is also a memory element which instantiate Memory Block Ram which is also a sigle port ROM. <br />
 <br />
-<br />
 *** you need to create two memory element (BRAM): one for instruction fetch and the other for memory fetch.
