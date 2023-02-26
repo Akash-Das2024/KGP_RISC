@@ -14,6 +14,6 @@
 -   MemoryFetch.v (MF)
 -   Clock_divider.v (CD)
 -   4 different MUX
--   -   you need to create two memory element (BRAM): one for instruction fetch and the other for memory fetch.
+-   you need to create two memory element (BRAM): one for instruction fetch and the other for memory fetch.
 
 ### INSTRUCTIONS:
