@@ -1,19 +1,28 @@
 # KGP_RISC
 
-## RISC PROCESSOR DESIGN:
+### Language:
+
+-   verilog
 
 ### Design modules:
 
 -   miniRISC.v (top module)
 -   ALU.v (alu)
 -   ProgramCounter.v (PC)
--   InstructionFetch.v (IF
+-   InstructionFetch.v (IF)
 -   decoder.v (decoder)
 -   ControlUnit.v (CU)
 -   registerFile.v (RF)
 -   MemoryFetch.v (MF)
 -   Clock_divider.v (CD)
--   4 different MUX
--   you need to create two memory element (BRAM): one for instruction fetch and the other for memory fetch.
+-   Four different MUX
+-   Two memory element (BRAM):instruction fetch, memory fetch
 
 ### INSTRUCTIONS:
+
+-   refer to KGP_RISC.pdf
+
+### Contributors
+
+-   Akash Das (20CS10006)
+-   Suhas AM (20CS10066)
