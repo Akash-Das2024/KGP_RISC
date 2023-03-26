@@ -1,11 +1,13 @@
 # KGP_RISC
 
-### Language:
+### Design/Diagram:
 
+<img src="data/diagram.png">
+
+### Languages:
 -   verilog
 
 ### Design modules:
-
 -   miniRISC.v (top module)
 -   ALU.v (alu)
 -   ProgramCounter.v (PC)
@@ -19,10 +21,8 @@
 -   Two memory element (BRAM):instruction fetch, memory fetch
 
 ### INSTRUCTIONS:
-
 -   refer to KGP_RISC.pdf
 
 ### Contributors
-
 -   Akash Das (20CS10006)
 -   Suhas AM (20CS10066)
