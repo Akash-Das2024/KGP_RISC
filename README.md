@@ -21,7 +21,7 @@
 -   Two memory element (BRAM):instruction fetch, memory fetch
 
 ### INSTRUCTIONS:
--   refer to KGP_RISC.pdf
+-   refer to data/KGP_RISC.pdf
 
 ### Contributors
 -   Akash Das (20CS10006)
